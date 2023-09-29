@@ -1,0 +1,224 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+#banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    height: 80vh;
+}
+
+#banner-txt h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F9F9F9;
+
+}
+
+#banner-txt p {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+#btn-download {
+    background-color: #00DF5E;
+    width: 143px;
+    height: 42px;
+    border: 0;
+    font-size: 16px;
+}
+
+#btn-ctt {
+    background-color: transparent;
+    width: 143px;
+    height: 42px;
+    color: #fff;
+    border: none;
+    border: 1px solid #333333;
+}
+
+#sobre-mim {
+    background-color: #000000;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    /*margin-bottom: 100px;*/
+}
+
+#sobre-mim h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    color: #F9F9F9;
+    margin-bottom: 30px;
+}
+
+#sobre-mim-txt {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #828282;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+#lista h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F9F9F9;
+}
+
+#lista p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #828282;
+}
+
+#lista img {
+    padding: 0.8em;
+    background-color: #212121;
+    border-radius: 50%;
+}
+
+#servicos {
+    background-color: #000000;
+    height: 50vh;
+}
+
+#servicos h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F9F9F9;
+    margin-bottom: 40px;
+}
+
+#servicos-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+#servicos-div div {
+    background-color: #212121;
+    width: 350px;
+    height: 240px;
+    border: 1px solid #333333;
+    text-align: left;
+    padding: 1em;
+    border-bottom: 5px solid #00DF5E;
+
+}
+
+#servicos-div div:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+#servicos-div img {
+    margin-bottom: 50px;
+}
+
+#servicos-div h4 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #828282;
+
+}
+
+#skills  {
+    margin-top: 50px;
+    background-color: #000000;
+    margin-top: 100px;
+}
+
+#skills h3 {
+    font-family: DM Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F9F9F9;
+    margin-bottom: 50px;
+}
+
+#skills ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#skills img {
+    width: 120px;
+    height: 120px;
+    background-color: #212121;
+    border: 1px solid #333333;
+    padding: 1em;
+}
