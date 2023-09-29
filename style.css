@@ -318,8 +318,8 @@ nav li:hover {
 #skills img {
     width: 120px;
     height: 120px;
-    background-color: #212121;
-    border: 1px solid #333333;
+   /* background-color: #212121;
+    border: 1px solid #333333;*/
     padding: 1em;
 }
 
